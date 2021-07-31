@@ -1,6 +1,6 @@
 This project summarizes and provides the core code of the paper "Robust semi-supervised classification based on data augmented online ELMs with deep features", which has been accepted by Knowledge-Based Systems. 
 
-<img src="./other/DF-DAELM.png" alt="DF-DAELM" style="zoom: 67%;" />
+<div align=center><img src="./other/DF-DAELM.png" alt="DF-DAELM" width="500px" />
 
 ### Introduction
 
@@ -14,7 +14,7 @@ This project provides the code demo for these two classifiers (SLI-OELM and CR-O
 
 - ###### SLI-OELM
 
-<img src="./other/SLIOELM.png" alt="SLIOELM" style="zoom: 33%;" />
+<div align=center><img src="./other/SLIOELM.png" alt="SLIOELM"  width="500px"/>
 
 ```
 python train.py --ELM 'SLI-OELM'  --hidden_size 1200  --c 0.01  --alpha 0.6  --label-noise-level 0.6  --scale-ratio-level 0.16
@@ -24,7 +24,7 @@ python train.py --ELM 'SLI-OELM'  --hidden_size 1200  --c 0.01  --alpha 0.6  --l
 
 - ###### CR-OELM
 
-<img src="./other/CROELM.png" alt="SLIOELM" style="zoom: 33%;" />
+<div align=center><img src="./other/CROELM.png" alt="SLIOELM"  width="500px"/>
 
 ```
 python train.py --ELM 'CR-OELM'  --hidden_size 1200  --c 0.01  --c1 0.42  --label-noise-level 0.6  --scale-ratio-level 0.16
